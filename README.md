@@ -1,6 +1,6 @@
 # NLP
 ## Paper reading assignment
-| topic | Graph Transformer Networks  |
+1. | topic | Graph Transformer Networks  |
 |:------:|:-----|
-|problems| The problem add  |
-|related work|hdjfhd|
+|problems| Limitation of existing Graph Neural Networks (GNNs) in handling heterogeneous graphs  |
+|related work|                         |
