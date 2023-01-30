@@ -1,6 +1,6 @@
 # NLP
 ## Paper reading assignment
-| topic | Graph Transformer Networks |
+| topic | 1. Graph Transformer Networks (NeurIPS, 2019) <br> Author Seongjun Yun, Minbyul Jeong|
 |:------:|:-----|
-|problems| Limitation of existing Graph Neural Networks (GNNs) in handling heterogeneous graphs  |
-|related work|                         |
+|Problems| Limitation of existing Graph Neural Networks (GNNs) in handling heterogeneous graphs  |
+|Related work|                         |
