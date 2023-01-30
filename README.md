@@ -1,5 +1,6 @@
-# NLP_code
-| topic | ELECTRA: Pre-Training Text Encoders as Discriminators Rather Than Generators  |
+# NLP
+## Paper reading assignment
+| topic | Graph Transformer Networks  |
 |:------:|:-----|
-|problems| aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|
+|problems| The problem add  |
 |related work|hdjfhd|
