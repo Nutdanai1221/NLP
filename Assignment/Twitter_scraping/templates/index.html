@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Input Box Example</title>
+  </head>
+  <body>
+    <h1>Enter your name:</h1>
+    <form method="post">
+      <input type="text" name="text_data" placeholder="Key your keyword here">
+      <button type="submit">submit</button>
+    </form>
+    <p>Positive word is</p>
+    {% if good %}
+      <div>{{good}}</div>
+    {% endif %}  
+    <p>Negative word is</p>
+    {%if bad%}
+      <div>{{bad}}</div>
+    {% endif %}
+  </body>
+</html>
