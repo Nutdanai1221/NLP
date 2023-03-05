@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator Website</title>
+    <style>
+      /* Modern styles */
+      * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      
+      body {
+        background-color: #f0f0f0;
+        margin: 0;
+      }
+      
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      }
+      
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+      
+      label {
+        font-size: 18px;
+        font-weight: bold;
+        color: #555;
+      }
+      
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        resize: none;
+        margin-bottom: 20px;
+      }
+      
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #555;
+      }
+      
+      hr {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+      }
+      
+      h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #555;
+      }
+      
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Translator Website</h1>
+      <form action="/translate" method="POST">
+        <label for="input-text">Enter text to translate:</label>
+        <textarea id="input-text" name="input-text" rows="5" placeholder="Type your text here"></textarea>
+        <input type="submit" value="Translate">
+      </form>
+      {% if translated_text %}
+      <hr>
+      <h2>Translated text:</h2>
+      <p>{{ translated_text }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
