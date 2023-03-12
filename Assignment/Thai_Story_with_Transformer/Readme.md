@@ -7,4 +7,4 @@
 * Then press the generate button and wait for the model to generate a story for you.<br> <br>
 ![home_page!](https://github.com/Nutdanai1221/NLP/blob/master/Assignment/Thai_Story_with_Transformer/figure/1_tran.png)
 * Finally, the website will generate a story that is relevant to the thing you typed. <br> <br>
-![home_page!](https://github.com/Nutdanai1221/NLP/blob/master/Assignment/Thai_Story_with_Transformer/figure/2_tran.png)
+![home_page!](https://github.com/Nutdanai1221/NLP/blob/master/Assignment/Thai_Story_with_Transformer/figure/2_trans.png)
